@@ -3,7 +3,7 @@
   "description": "Rapid Search for Codeigniter 4 framework",
   "type": "library",
   "require": {
-    "codeigniter4/framework": "4.4.8"
+    "codeigniter4/framework": "^4.4.8"
   },
   "license": "MIT",
   "autoload": {
