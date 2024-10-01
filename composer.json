@@ -1,0 +1,21 @@
+{
+  "name": "aselsan/search",
+  "description": "Rapid Search for Codeigniter 4 framework",
+  "type": "library",
+  "require": {
+    "codeigniter4/framework": "4.4.8"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Aselsan\\Search\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "warcooft",
+      "email": "syamsuddine9@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
