@@ -36,7 +36,7 @@ $keyword = "jhon doe";
 model(UserModel::class)->search($keyword)->paginate();
 
 // Match all fields
-model(UserModel::class)->search($keyword)->paginate();
+model(UserModel::class)->search($keyword, true)->paginate();
 ```
 
 ## License
