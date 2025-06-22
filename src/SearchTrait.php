@@ -21,7 +21,7 @@ trait SearchTrait
 
         foreach ($this->getSearchableFields() as $field) {
             $condition = $matchAllFields ? 'where' : 'orWhere';
-            $this->{$condition}("$field LIKE", "%$keyword%");
+            $this->{$condition}("LOWER($field) LIKE", strtolower("%$keyword%"));
         }
 
         $this->groupEnd();
